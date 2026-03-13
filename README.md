@@ -1,6 +1,4 @@
-# Naive Bayes
-
-### Group 2
+# Naive Bayes - Group 2
 
 | NRP | Name |
 |:---:|:----:|
