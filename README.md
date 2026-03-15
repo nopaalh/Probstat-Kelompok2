@@ -9,8 +9,6 @@
 
 
 ## 1. Bayes' Theorem Overview
-Teorema Bayes menjelaskan bagaimana cara kita membalik probabilitas bersyarat. Probabilitas bersyarat mengajarkan kita bagaimana mencari peluang hasil dari suatu kondisi. Pada Teorema Bayes kita diajarkan bagaimana mencari peluang suatu kondisi jika kita sudah mengetahui hasilnya.
-
 Bayes' Theorem is a fundamental mathematical formula used in probability and statistics. At its core, it provides a way to **update our beliefs or probabilities based on new evidence**.
 
 Instead of just looking at the probability of an event happening in isolation, Bayes' Theorem helps us calculate the probability of an event happening given that another related event has already occurred.
@@ -101,6 +99,22 @@ Let's say we look at a student's short bio containing just two words: "C++" and 
 Because $0.07$ is significantly larger than $0.016$, the algorithm confidently classifies the student as an **Informatics Engineering** student.
 
 ## 3. Dataset Description
+SMS Spam Collection Dataset is a collection of messages that have been labeled manually for  mobile spam research.
+
+A. Data Structure
+This dataset consist of 5.572 row of data with column like this :
+   - v1 (Target) : Label clasification of the messages that separate of 2 categories :
+        - 'ham'  : normal messages.
+        - 'spam' : scam, spam, and promotion messages.
+   - v2 (feature) : raw text form the messages that will be analyze
+   - unnamed column : there are 3 unnamed columns that will be ignored during data processing.
+
+B. Data Statictics
+The dataset is imbalanced, which is typical for spam detection tasks:
+   - Total Messages: 5,572
+   - Ham (Legitimate): 4,825 (86.6%)
+   - Spam: 747 (13.4%)
+     
 
 ## 4. Naïve Bayes Implementation Results
 
