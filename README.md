@@ -114,7 +114,6 @@ The dataset is imbalanced, which is typical for spam detection tasks:
    - Total Messages: 5,572
    - Ham (Legitimate): 4,825 (86.6%)
    - Spam: 747 (13.4%)
-   - kjkn
      
 
 ## 4. Naïve Bayes Implementation Results
